@@ -1,0 +1,18 @@
+
+# Credenciales y variables locales
+.env
+.env.*
+!.env.example
+*.secret.json
+
+# Reportes y archivos temporales
+*.log
+*.tmp
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
